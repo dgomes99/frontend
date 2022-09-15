@@ -59,15 +59,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Geeft geen informatie met mouseover.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Tab: van zoekbalk meteen naar de footer met nieuwsbrief inschrijven. Site is niet te gebruiken zonder de muis.
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -77,9 +73,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Bril met witte vlekken maakt lezen lastiger, maar lukt wel met focus. Teksten nogal klein en dun.
+Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleuren die de artikelen hebben.
 
 </details>
 
