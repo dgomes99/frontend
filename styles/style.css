@@ -17,7 +17,7 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background: solid white;
+	--color-background: white;
 }
 
 
@@ -30,41 +30,43 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	height: 50px;
-}
-
-.logo {
-
+	position: sticky; 
+	top: 0;
+	z-index: 2;
+	background-color: var(--color-background);
 }
 
 .section1 {
     position: relative;
 }
 
-.background1 {
+section article:first-child img {
 	width: 380px;
 	height: 520px;
 }
 
-.EXTRA20 {
+section article:first-of-type p:first-of-type {
 	position: absolute;
 	top: 350px;
 	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .finalsale {
 	position: absolute;
 	top: 380px;
 	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .code {
 	position: absolute;
 	top: 430px;
 	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-	border: white; border-width: 2px; border-style: inset;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: black;
+	padding: 6px;
+	color: white;
 }
 
 .model {
