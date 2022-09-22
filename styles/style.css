@@ -52,6 +52,10 @@ section article:first-of-type p:first-of-type {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.article1{
+	margin-left: -8px;
+}
+
 .finalsale {
 	position: absolute;
 	top: 380px;
@@ -70,12 +74,12 @@ section article:first-of-type p:first-of-type {
 }
 
 .model {
-	width: 375px;
+	width: 360px;
 	margin-top: 40px;
 }
 
 .schoenen {
-	width: 375px;
+	width: 360px;
 	margin-top: 30px;
 }
 
@@ -84,22 +88,30 @@ body {
   background-color:var(--color-background);
 }
 
-.jacket {
+.slides {
 	width: 175px;
 	margin-top: 20px;
 }
 
-.pants {
+.af1 {
 	width: 175px;
 	margin-left: 3px;
 }
 
-.vest {
+.jordans {
 	width: 175px;
 	margin-top: 10px;
 }
 
-.pants2 {
+.jordans2 {
 	width: 175px;
 	margin-left: 3px;
+}
+
+.payment.methods{
+	width: 380px;
+}
+
+.payments{
+	width: 360px;
 }
