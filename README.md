@@ -8,8 +8,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Jij
 
 <details open>
@@ -25,9 +23,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   surface plane
  
 </details>
-
-
-
 
 
 ## Je website
@@ -56,20 +51,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Over het algemeen optimaal contrast zwarte tekst - witte achtergrond. Niet veel kleurgebruik.
+  In enkele gevallen valt zwarte tekst over donkere afbeeldingen en is het moeilijk te lezen.
 
   #### Screenreader
 Geeft geen informatie met mouseover.
-
 
   #### Muis en Toetsenbord 
 Tab: van zoekbalk meteen naar de footer met nieuwsbrief inschrijven. Site is niet te gebruiken zonder de muis.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Knoppen zijn redelijk tot groot en navigeren gaat goed met een slechte motoriek.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -86,17 +79,9 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
 </details>
-
-
 
 
 
@@ -106,29 +91,19 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Vraagtekens bij responsive, pagina images width in px meegegeven. Flexbox in de header ging goed. 
+  Vraagtekens over positioneren vier afbeeldingen.
+  <img src="readme-images/screen1.jpg" width="375px" alt="screenshot">
+  position sticky werkt niet?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - classes vervangen door nth: first of type
+  - oplossing position sticky: top: 0;
 
 </details>
-
 
 
 
@@ -139,26 +114,14 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Vier afbeeldingen zo netjes mogelijk positioneren?
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - hamburger menu in button plaatsen, was gewoon een image.
+  - Vier afbeeldingen GRID gebruiken met li's erin.
+  - Afbeeldingen geen px width meegeven, maar 100%!
 
 </details>
 
@@ -172,30 +135,24 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Tekst eerste artikel veel fijner te lezen dan op de oorspronkeljjke website.
+  Met tab (productpagina) goed te gebruiken. 
+
+   <img src="readme-images/screen.maha" width="375px" alt="oorspronkelijke pagina">
+   <img src="readme-images/screen.nieuw" width="375px" alt="verbeterde pagina">
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Tekst eerste artikel veel fijner te lezen dan op de oorspronkeljjke website.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+   <img src="readme-images/screen.maha" width="375px" alt="oorspronkelijke pagina">
+   <img src="readme-images/screen.nieuw" width="375px" alt="verbeterde pagina">
+
 
 </details>
 
@@ -209,26 +166,13 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Helaas ziek en afwezig. Hamburger menu lukt nog niet, aankomende week hulp van CMD student.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ziek met koorts op bed
 
 </details>
 
@@ -242,19 +186,24 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/result1.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/result2.jpg" width="375px" alt="uitomst opdracht">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Een nieuwe manier van aanroepen (nth-of-type)
+  - Een font downloaden en toepassen
+  - Stilstaan bij verschillende (beperkte) gebruikers
+  - Hamburger menu maken
+  - Carousel maken
+  - Enz...
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De footer is helaas niet interactief en klapt niet uit.
+  Ik had ook graag meerdere animaties toe willen voegen, maar ik heb persoonlijk toch grote stappen gemaakt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/footer" width="375px" alt="footer">
 </details>
 
 
@@ -268,8 +217,8 @@ Gele bril maakt kleuren van artikelen anders, maar dit zijn nou eenmaal de kleur
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
+  1. https://flexboxfroggy.com/#nl
+  2. Studentassistenten + Robert
   3. ...
 
 </details>

@@ -9,47 +9,150 @@ button, summary {
 	cursor: pointer;
 }
 
-
+img {
+	max-width: 100%;
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+@font-face{
+	font-family: "Maha font";
+	src: url('../mahafont/mahafont.ttf');
+}
+
+@font-face{
+  font-family: "Maha bold";
+  src: url('../mahafont/mahafont1.ttf');
+}
+
 :root {
 	/* startje */
 	--color-text:#111;
 	--color-background: white;
+	font-family: 'Maha font';
 }
 
+h3{
+  font-size: 13px;
+  font-weight: 600;
+}
 
+h2{
+  font-family: 'Maha bold';
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	height: 50px;
-	position: sticky; 
-	top: 0;
-	z-index: 2;
-	background-color: var(--color-background);
+
+header img {
+	height: 45px;
+	top: 0.5em;
 }
+
+header ul {
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  header ul li:first-of-type div{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+
+  header ul li:first-of-type div.kruisje span:nth-of-type(2) {
+    display: none;
+  }
+  
+  header ul li:first-of-type div.kruisje span:first-of-type {
+    top: 1.1em;
+    transform: rotate(45deg);
+    width: 2em;
+  }
+  
+  header ul li:first-of-type div.kruisje span:last-of-type {
+    transform: rotate(-45deg);
+    width: 2em;
+  }
+  
+  header ul li:first-of-type div span {
+    display: block;
+    width: 1em;
+    height: 0.1em;
+    background-color: black;
+    transition: 0.5s;
+    position: relative;
+  }
+
+  header ul li:first-of-type div span:nth-of-type(2) {
+    top: .5em;
+  }
+  
+  header ul li:first-of-type div span:last-of-type{
+    top: 1em;
+  }
+  
+  header ul li:first-of-type div:hover span {
+    width: 2em;
+  }
+  
+  header div:nth-child(2) {
+    position: fixed;
+    left: -25em;
+    top: 0;
+    display: block;
+    width: 25em;
+    height: 100%;
+    margin: 0;
+    background-color: var(--color-background);
+    transition: 0.5s;
+  }
+  
+  header div:nth-child(2).open {
+    left: .5em;
+    z-index: 1;
+  }
+  
+  header ul li ul li {
+    font-size: 0.5em;
+    margin: 1em 0;
+  }
+  
+  header ul li ul {
+    margin-top: 0;
+  }
+  
+  header div:nth-child(2) ul {
+    font-size: 1.4em;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+  }
+  
+  header div ul li:first-child ul {
+    display: none;
+  }
+  
+  header div ul li:first-child.klap ul {
+    display: block;
+  }
 
 .section1 {
     position: relative;
 }
 
-section article:first-child img {
-	width: 380px;
-	height: 520px;
-}
-
 section article:first-of-type p:first-of-type {
 	position: absolute;
-	top: 350px;
-	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	top: 18px;
+	left: 20px;
 }
 
 .article1{
@@ -58,29 +161,27 @@ section article:first-of-type p:first-of-type {
 
 .finalsale {
 	position: absolute;
-	top: 380px;
-	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	top: 36px;
+	left: 20px;
 }
 
 .code {
 	position: absolute;
-	top: 430px;
-	left: 22px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	top: 400px;
+	left: 20px;
 	background-color: black;
-	padding: 6px;
+	padding: 12px;
 	color: white;
+  border: none;
 }
 
-.model {
-	width: 360px;
+article.intro-image img {
 	margin-top: 40px;
 }
 
-.schoenen {
-	width: 360px;
-	margin-top: 30px;
+hr {
+	width: 20%;
+	margin: 0;
 }
 
 body {
@@ -88,30 +189,110 @@ body {
   background-color:var(--color-background);
 }
 
-.slides {
-	width: 175px;
-	margin-top: 20px;
+.list {
+	display: grid;
+	grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+	list-style: none;
+	margin-top: 60px;
+	padding-inline-start: 2px;
+  text-align: left;
 }
 
-.af1 {
-	width: 175px;
-	margin-left: 3px;
+footer form {
+	margin-top: 2em;
 }
 
-.jordans {
-	width: 175px;
-	margin-top: 10px;
+footer form input {
+    color: #383838;
+    background-color: transparent;
+    border: 1px;
+    outline: none;
+    border-bottom: 1px solid #383838;
+    width: 20em;
+    transition: .35s ease-in-out;
 }
 
-.jordans2 {
-	width: 175px;
-	margin-left: 3px;
-}
-
-.payment.methods{
+.payment.methods {
 	width: 380px;
 }
 
 .payments{
 	width: 360px;
+	margin-top: 2em;
+}
+
+div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer{
+	margin-top: 100px;
+}
+
+footer hr {
+  width: 100%;
+}
+
+/*********************************** PRODUCT PAGINA BEGINT HIER *********************************/
+
+#productpage article:first-of-type{
+  display: flex;
+  flex-shrink: 0;
+  overflow-x: scroll;
+}
+
+#productpage article:first-of-type img{
+  width: 85%;
+}
+
+#productpage hr {
+  width: 100%;
+}
+
+#productpage article:nth-of-type(3){
+  width: 100%;
+  align-items: center;
+  margin-top: 0.5em;
+  padding: 13px 15px;
+  background-color: var(--color-background);
+}
+
+#productpage article:nth-of-type(3) button{
+  padding: 13px 15px;
+  background-color: var(--color-background);
+  width: 8em;
+  margin-top: 0.5em;
+  border-width: 0.3mm;
+}
+
+.cartbutton{
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 3.5em;
+}
+
+.hr{
+  margin-top: 2em;
+}
+
+.hr2{
+  margin-top: 2em;
+}
+
+#productpage h3:nth-of-type(1){
+  text-align: left;
+}
+
+#productpage .list {
+	display: grid;
+	grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+	list-style: none;
+	margin-top: 20px;
+	padding-inline-start: 2px;
+  text-align: left;
 }
