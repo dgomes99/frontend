@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
+<body id="homepage">
 	<script defer src="scripts/script.js"></script>
 
 <header>
@@ -25,7 +25,7 @@
 				<span></span>
 			</div>
 		</li>
-		<li><img src="images/logo.maha.png" alt="logo"></li>
+		<li class="mahalogo"><img src="images/logo.maha.png" alt="logo"></li>
 		<li><img src="images/cart.icon.png" alt="winkelmandje"></li>
 	</ul>
 	<div>
@@ -43,11 +43,11 @@
 </header>
 
 <section class="section1">
-	<article class="article1">
-		<a href="product.html"><img src="images/background.jpeg" alt="background"></a>
+	<article>
+		<img src="images/background.jpeg" alt="background">
 		<p>NEW IN</p>
 		<H2 class="finalsale">STÜSSY</H2>
-		<button class="code">DISCOVER MORE</button>
+		<a class="discovermore" href="product.html">DISCOVER MORE</a>
 	</article>
 
 <article>
@@ -55,7 +55,7 @@
 	<p>NEW IN</p>
 	<H2>The New Originals</H2>
 	<hr />
-	<p>SEE COLLECTION</p>
+	<a href="product.html">SEE COLLECTION</a>
 </article>
 
 <article>
@@ -63,11 +63,11 @@
 	<p>SMOOTH COMFORT</p>
 	<H2>JORDAN 1 MID</H2>
 	<hr />
-	<p>GET YOURS</p>
+	<a href="product.html">GET YOURS</a>
 </article>
 
 <article>
-<ul class="list">
+<ul class="artikelen">
 <li>
 	<img src="images/yeezy.bone.jpeg" alt="slides">
 	<h3>Yeezy slides</h3>
@@ -92,11 +92,11 @@
 </article>
 
 <article>
-	<img class="schoenen" src="images/SALOMON.webp" alt="SALOMON">
+	<img src="images/SALOMON.webp" alt="SALOMON">
 	<p>SMOOTH COMFORT</p>
 	<H2>JORDAN 1 MID</H2>
 	<hr />
-	<p>GET YOURS</p>
+	<a href="product.html">GET YOURS</a>
 </article>
 
 <article>
@@ -104,32 +104,85 @@
 	<p>NEW IN</p>
 	<H2>STÜSSY</H2>
 	<hr />
-	<p>SHOP NOW</p>
+	<a href="product.html">SHOP NOW</a>
 </article>
 </section>
 
+
 <footer>
-	<hr />
-<div>
-	<p>About Us</p>
-	<p>+</p>
-</div>
-<hr />
-<div>
-	<p>Customer Service</p>
-	<p>+</p>
-</div>
-<hr />
-<div>
-	<p>My Account</p>
-	<p>+</p>
-</div>
-<hr />
-<div>
-	<p>Connect</p>
-	<p>+</p>
-</div>
-<hr />
+	<hr>
+<ul>
+	<li>
+		<details>
+			<summary>About Us</summary>
+				<ul>
+					<li>
+						About Us
+					</li>
+					<li>
+						Contact
+					</li>
+					<li>
+						Careers
+					</li>
+				</ul>
+		</details>
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<details>
+			<summary>Customer Service</summary>
+				<ul>
+					<li>
+						Shipping
+					</li>
+					<li>
+						Returns
+					</li>
+					<li>
+						Privacy Policy
+					</li>
+					<li>
+						Payment Methods
+					</li>
+				</ul>
+		</details>
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<details>
+			<summary>My Account</summary>
+				<ul>
+					<li>
+						Register/Login
+					</li>
+					<li>
+						My orders
+					</li>
+				</ul>
+		</details>
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<details>
+			<summary>Connect</summary>
+				<ul>
+					<li>
+						Instagram
+					</li>
+					<li>
+						Facebook
+					</li>
+				</ul>
+		</details>
+	</li>
+</ul>
 
 <form>
 	<p> Subscribe to our newsletter </p>
